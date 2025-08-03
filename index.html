@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Birleştirici</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PDF Birleştirici</h1>
+            <p class="description">
+                Birden fazla PDF dosyasını tek bir dosyada birleştirin. 
+                Dosyalarınızı yükleyin, sıralayın ve tek tıkla birleştirin!
+            </p>
+        </header>
+
+        <main>
+            <div class="upload-section">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-content">
+                        <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7,10 12,15 17,10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <h3>PDF Dosyalarınızı Buraya Sürükleyin</h3>
+                        <p>veya tıklayarak seçin</p>
+                        <input type="file" id="fileInput" multiple accept=".pdf" style="display: none;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="files-section" id="filesSection" style="display: none;">
+                <h3>Yüklenen Dosyalar</h3>
+                <div class="files-list" id="filesList"></div>
+                <div class="actions">
+                    <button class="btn btn-primary" id="mergeBtn">PDF'leri Birleştir</button>
+                </div>
+            </div>
+
+            <div class="result-section" id="resultSection" style="display: none;">
+                <h3>Birleştirme Tamamlandı!</h3>
+                <div class="result-content">
+                    <p>PDF dosyalarınız başarıyla birleştirildi.</p>
+                    <button class="btn btn-success" id="downloadBtn">Birleştirilmiş PDF'yi İndir</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>By Rabia Altınok</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
