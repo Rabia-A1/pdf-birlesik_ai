@@ -4,7 +4,7 @@ Bu proje, AI asistanımla birlikte geliştirdiğim ilk web uygulamasıdır. HTML
 
 ## 🚀 Canlı Demo
 
-[GitHub Pages Linki Buraya Gelecek]
+ https://rabia-a1.github.io/pdf-birlesik_ai
 
 ## ✨ Özellikler
 
@@ -45,11 +45,11 @@ Bu proje öğrenme amaçlıdır. Geri bildirimlerinizi bekliyoruz!
 
 ## 📞 İletişim
 
-- LinkedIn: [LinkedIn Profiliniz]
-- GitHub: [GitHub Profiliniz]
+- LinkedIn: www.linkedin.com/in/rabia-altınok-5126282b2
+- GitHub: https://github.com/Rabia-A1
 
 ---
 
 **Not**: Bu proje AI asistanımla birlikte geliştirilmiştir. AI'ın yazılım geliştirme süreçlerindeki rolünü göstermek amacıyla paylaşılmıştır.
 
-**Geliştirici**: [İsminiz] 
+**Geliştirici**: Rabia Altınok
